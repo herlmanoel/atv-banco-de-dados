@@ -1,10 +1,10 @@
-INSERT INTO estado (sgestado, nmestado)
-VALUES ('SP', 'SÃO PAULO'),
-       ('RJ', 'Rio de Janeiro'),
-       ('MG', 'Minas Gerais'),
-       ('ES', 'Espírito Santo'),
-       ('BA', 'Bahia'),
-       ('RN', 'Rio Grande do Norte');
+INSERT INTO estado (sgestado)
+VALUES ('SP'),
+       ('RJ'),
+       ('MG'),
+       ('ES'),
+       ('BA'),
+       ('RN');
 
 
 INSERT INTO cidade (cdcidade, sgestado, nmcidade)
@@ -13,7 +13,6 @@ VALUES (1, 'RN', 'Natal'),
        (3, 'RN', 'São Gabriel'),
        (4, 'SP', 'São Paulo'),
        (5, 'SP', 'Barueri');
-
 
 INSERT INTO bairro (cdbairro, cdcidade, sgestado, nmbairro)
 VALUES (1, 1, 'RN', 'Ponta Negra'),
